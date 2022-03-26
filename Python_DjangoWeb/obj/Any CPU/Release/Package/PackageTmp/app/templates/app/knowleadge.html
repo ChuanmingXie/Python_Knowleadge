@@ -1,0 +1,38 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+<h2>{{ title }}</h2>
+
+<p><a href="{% url 'createknow' %}">新建</a></p>
+<div>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>章节编号</th>
+				<th>章节标题</th>
+				<th>编辑人员</th>
+				<th>编辑区域</th>
+				<th>创建时间</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for item in contentlist.all %}
+			<tr>
+				<td>{{ item.chapterNum }}</td>
+				<td>{{ item.chapterTitle }}</td>
+				<td>{{ item.chapterAuthor }}</td>
+				<td>{{ item.create_house }}</td>
+				<td>{{ item.edited_data }}</td>
+				<td>
+					<a href="{% url 'editknow' item.id %}">编辑</a>
+					<a href="{% url 'detailknow' item.id %}">详情</a>
+					<a href="{% url 'deleteknow' item.id %}">删除</a>
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_DjangoWeb", "Python_DjangoWeb\Python_DjangoWeb.pyproj", "{28EBC8B5-A129-464C-859B-42E3AA899356}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Knowleadge", "Python_Knowleadge\Python_Knowleadge.pyproj", "{3594A86A-94C4-49B3-B9C0-71628DC926EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28EBC8B5-A129-464C-859B-42E3AA899356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EBC8B5-A129-464C-859B-42E3AA899356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EBC8B5-A129-464C-859B-42E3AA899356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EBC8B5-A129-464C-859B-42E3AA899356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3594A86A-94C4-49B3-B9C0-71628DC926EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3594A86A-94C4-49B3-B9C0-71628DC926EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3FC8346-5410-4BEA-AB25-DAE0E2A76634}
+	EndGlobalSection
+EndGlobal
