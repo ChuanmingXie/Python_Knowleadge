@@ -24,12 +24,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="chapter02：Python顺序语句\Chapter01Print.py" />
-    <Compile Include="chapter02：Python顺序语句\02_输出.py" />
-    <Compile Include="chapter02：Python顺序语句\03_顺序输出.py" />
-    <Compile Include="chapter02：Python顺序语句\04_数据类型.py" />
-    <Compile Include="chapter02：Python顺序语句\05_运算符.py" />
-    <Compile Include="chapter02：Python顺序语句\06_字符串格式化.py" />
+    <Compile Include="chapter02：Python顺序语句\orderprint.py" />
+    <Compile Include="chapter02：Python顺序语句\orderoutput.py" />
+    <Compile Include="chapter02：Python顺序语句\orderoutputs.py" />
+    <Compile Include="chapter02：Python顺序语句\datatype.py" />
+    <Compile Include="chapter02：Python顺序语句\operation.py" />
+    <Compile Include="chapter02：Python顺序语句\stringformat.py" />
     <Compile Include="chapter03：Python条件语句\ifAndelse.py" />
     <Compile Include="chapter03：Python条件语句\02_三目运算符.py" />
     <Compile Include="chapter03：Python条件语句\03_条件语句练习.py" />
