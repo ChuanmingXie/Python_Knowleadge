@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3594a86a-94c4-49b3-b9c0-71628dc926ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>chapter02：Python顺序语句\05_运算符.py</StartupFile>
+    <StartupFile>Python_Knowleadge.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="chapter02：Python顺序语句\01_输入.py" />
+    <Compile Include="chapter02：Python顺序语句\Chapter01Print.py" />
     <Compile Include="chapter02：Python顺序语句\02_输出.py" />
     <Compile Include="chapter02：Python顺序语句\03_顺序输出.py" />
     <Compile Include="chapter02：Python顺序语句\04_数据类型.py" />
