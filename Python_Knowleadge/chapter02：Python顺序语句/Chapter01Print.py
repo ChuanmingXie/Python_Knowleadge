@@ -8,9 +8,6 @@ Software    :PyCharm
 Description :学习python的输入功能
 """
 
-import getpass
-import modbus
-import Chapter01Print
 
 def PrintNumber():
     num1 = int(input('请输入第一个数:'))
@@ -25,7 +22,7 @@ def PrintString():
 def PrintUserInfo():
     username = input('请输入您的用户名:')
     # password = getpass.getpass('请输入您的密码:')
-    # password = input('请输入您的密码:')
+    password = input('请输入您的密码:')
     print(username, password)
 
 def StudyPrint():
@@ -33,7 +30,7 @@ def StudyPrint():
     print("-------------1.数字输入测试-------------")
     print("-------------2.字符串输入测试-------------")
     print("-------------3.用户信息输入测试-------------")
-    N=input('请选择测试类别')
+    N=int(input('请选择测试类别:'))
     if(N==1):
         PrintNumber()
     elif(N==2):

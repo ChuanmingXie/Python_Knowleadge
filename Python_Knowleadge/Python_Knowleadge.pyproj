@@ -4,8 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3594a86a-94c4-49b3-b9c0-71628dc926ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Knowleadge.py</StartupFile>
-    <SearchPath>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Lib\site-packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Lib\site-packages\modbus_tk</SearchPath>
+    <StartupFile>main\Python_Knowleadge.py</StartupFile>
+    <SearchPath>C:\ToolsCode\Python\Python39\Lib\site-packages</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Python_Knowleadge</Name>
@@ -30,7 +30,7 @@
     <Compile Include="chapter02：Python顺序语句\04_数据类型.py" />
     <Compile Include="chapter02：Python顺序语句\05_运算符.py" />
     <Compile Include="chapter02：Python顺序语句\06_字符串格式化.py" />
-    <Compile Include="chapter03：Python条件语句\01_分支语句.py" />
+    <Compile Include="chapter03：Python条件语句\ifAndelse.py" />
     <Compile Include="chapter03：Python条件语句\02_三目运算符.py" />
     <Compile Include="chapter03：Python条件语句\03_条件语句练习.py" />
     <Compile Include="chapter04：Python循环语句\01_while循环.py" />
@@ -63,7 +63,7 @@
     <Compile Include="chapter08：字典与集合\08_字典应用2.py" />
     <Compile Include="chapter08：字典与集合\09_示例词频统计.py" />
     <Compile Include="chapter10：函数\圣诞树测试.py" />
-    <Compile Include="Python_Knowleadge.py" />
+    <Compile Include="main\Python_Knowleadge.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="chapter02：Python顺序语句\" />
@@ -84,18 +84,13 @@
     <Folder Include="chapter17：装饰器\" />
     <Folder Include="chapter18：带迭器与生成器\" />
     <Folder Include="chapter19：爬虫\" />
+    <Folder Include="main\" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="C:\ToolsCode\Python\Python27\env27\">
-      <Id>env27</Id>
-      <Version>2.7</Version>
-      <Description>env27 (Python 2.7 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X64</Architecture>
-    </Interpreter>
-    <Interpreter Include="C:\ToolsCode\Python\Python39\env\">
+    <Content Include="chapter05：进制与编码\log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
       <Id>env</Id>
       <Version>3.9</Version>
       <Description>env (Python 3.9 (64-bit))</Description>
@@ -104,9 +99,6 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="chapter05：进制与编码\log.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
