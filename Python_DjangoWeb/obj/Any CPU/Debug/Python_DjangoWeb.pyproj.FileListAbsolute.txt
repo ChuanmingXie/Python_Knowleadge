@@ -1,1 +1,2 @@
 D:\CodePractice\Backend\Python\Python-AspNetCore\Python_DjangoWeb\obj\Any CPU\Debug\Python_DjangoWeb.pyproj.CoreCompileInputs.cache
+D:\CodePractice\Backend\Python\Python_Knowleadge\Python_DjangoWeb\obj\Any CPU\Debug\Python_DjangoWeb.pyproj.CoreCompileInputs.cache

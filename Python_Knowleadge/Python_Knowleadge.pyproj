@@ -5,14 +5,15 @@
     <ProjectGuid>3594a86a-94c4-49b3-b9c0-71628dc926ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>Python_Knowleadge.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Lib\site-packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Lib\site-packages\modbus_tk</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Python_Knowleadge</Name>
     <RootNamespace>Python_Knowleadge</RootNamespace>
-    <InterpreterId>MSBuild|env3.9|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -85,10 +86,19 @@
     <Folder Include="chapter19：爬虫\" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env3.9\">
-      <Id>env3.9</Id>
+    <Interpreter Include="C:\ToolsCode\Python\Python27\env27\">
+      <Id>env27</Id>
+      <Version>2.7</Version>
+      <Description>env27 (Python 2.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+    <Interpreter Include="C:\ToolsCode\Python\Python39\env\">
+      <Id>env</Id>
       <Version>3.9</Version>
-      <Description>env3.9 (Python 3.9 (64-bit))</Description>
+      <Description>env (Python 3.9 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>

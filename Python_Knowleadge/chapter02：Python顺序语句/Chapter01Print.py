@@ -9,6 +9,8 @@ Description :学习python的输入功能
 """
 
 import getpass
+import modbus
+import Chapter01Print
 
 def PrintNumber():
     num1 = int(input('请输入第一个数:'))
