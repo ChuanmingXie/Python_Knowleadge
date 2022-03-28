@@ -3,12 +3,13 @@
 """
 DateTime    :2021/8/1 19:00
 Author      :chuanmingxie
-File        :05_运算符.py
-Software    :PyCharm
-Description :
+File        :operation.py
+Software    :visual studio
+Description :操作符测试
 """
 
 import os,re
+
 def rootpath():
     print('-----------------1-----------------')
     abspath=os.getcwd()                 #获取当前路径
@@ -20,23 +21,17 @@ def rootpath():
 
 def transformpath():
     print('-----------------2-----------------')
-    print(repr(repr(rootpath).strip("'")).strip("'"))  # 转义路径
+    print(repr(repr(rootpath).strip("'")).strip("'"))   # 转义路径
     print(repr(abspath).strip("'"))
     print(str(abspath))
 
-
 def listpath():
-    print('==========3===========')
+    print('-----------------3-----------------')
     ret_list = re.sub(repr(repr(rootpath).strip("'")).strip("'"), '.', repr(abspath).strip("'"))  # 获取相对路径
     print('获取到的相对路径: %s' % ret_list)
  
     print('../' + ret_list)
     print('此路径是否为文件夹：%s' % os.path.isdir('../' + ret_list))
-
-
-def clac():
-    print(5 + 5 > 3 - 2)
-    print(5 != 3)
 
 def replacestr():
     print('hello' in 'hello world')
@@ -51,6 +46,5 @@ if __name__=='__main__':
     rootpath()
     #transformpath()
     #listpath()
-    clac()
     replacestr()
 
