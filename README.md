@@ -1,2 +1,3 @@
 # Python_Knowleadge
-python
+python基础知识的学习
+pythonWeb的高效框架Django使用
