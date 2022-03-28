@@ -24,15 +24,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="chapter02_顺序语句\datatype.py" />
+    <Compile Include="chapter02_顺序语句\definedata.py" />
     <Compile Include="chapter02_顺序语句\operation.py" />
     <Compile Include="chapter02_顺序语句\orderoutput.py" />
-    <Compile Include="chapter02_顺序语句\orderoutputs.py" />
     <Compile Include="chapter02_顺序语句\orderprint.py" />
-    <Compile Include="chapter02_顺序语句\stringformat.py" />
-    <Compile Include="chapter03_条件语句\ifAndelse.py" />
-    <Compile Include="chapter03_条件语句\02_三目运算符.py" />
-    <Compile Include="chapter03_条件语句\03_条件语句练习.py" />
+    <Compile Include="chapter02_顺序语句\datatypeformat.py" />
+    <Compile Include="chapter03_条件语句\branch.py" />
+    <Compile Include="chapter03_条件语句\judge.py" />
+    <Compile Include="chapter03_条件语句\condition.py" />
     <Compile Include="chapter04_循环语句\01_while循环.py" />
     <Compile Include="chapter04_循环语句\02_while练习.py" />
     <Compile Include="chapter04_循环语句\03_for循环.py" />
