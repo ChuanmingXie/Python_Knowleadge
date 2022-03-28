@@ -37,8 +37,8 @@
     <Compile Include="chapter04_循环语句\forloop1.py" />
     <Compile Include="chapter04_循环语句\forloop2.py" />
     <Compile Include="chapter04_循环语句\nestedloop.py" />
-    <Compile Include="chapter05_进制与编码\01_编码示例-你的名字.py" />
-    <Compile Include="chapter05_进制与编码\02_进制转换.py" />
+    <Compile Include="chapter05_进制与编码\eccoding.py" />
+    <Compile Include="chapter05_进制与编码\binary.py" />
     <Compile Include="chapter06_数据类型\01_整形.py" />
     <Compile Include="chapter06_数据类型\02_字符串.py" />
     <Compile Include="chapter06_数据类型\03_字符串练习.py" />
