@@ -7,7 +7,6 @@ File        :01_分支语句.py
 Software    :PyCharm
 Description :
 """
-import Chapter01Print
 
 Chapter01Print.StudyPrint()
 
