@@ -3,9 +3,9 @@
 """
 DateTime    :2021/8/4 9:40
 Author      :chuanmingxie
-File        :04_for练习.py
-Software    :PyCharm
-Description :
+File        :forloop1.py
+Software    :visual studio
+Description :for练习
 """
 from math import sqrt
 

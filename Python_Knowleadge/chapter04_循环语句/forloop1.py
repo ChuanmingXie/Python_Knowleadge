@@ -3,8 +3,8 @@
 """
 DateTime    :2021/8/4 9:40
 Author      :chuanmingxie
-File        :03_for循环.py
-Software    :PyCharm
+File        :forloop1.py
+Software    :visual studio
 Description :for循环的三种格式 | 集合枚举技巧
 """
 import random

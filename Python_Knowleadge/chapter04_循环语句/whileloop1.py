@@ -3,9 +3,9 @@
 """
 DateTime    :2021/8/1 21:29
 Author      :chuanmingxie
-File        :01_while循环.py
-Software    :PyCharm
-Description :
+File        :whileloop1.py
+Software    :visual studio
+Description :while循环
 """
 
 # 1. 死循环

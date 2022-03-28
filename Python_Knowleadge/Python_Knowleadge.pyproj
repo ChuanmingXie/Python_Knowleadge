@@ -32,11 +32,11 @@
     <Compile Include="chapter03_条件语句\branch.py" />
     <Compile Include="chapter03_条件语句\judge.py" />
     <Compile Include="chapter03_条件语句\condition.py" />
-    <Compile Include="chapter04_循环语句\01_while循环.py" />
-    <Compile Include="chapter04_循环语句\02_while练习.py" />
-    <Compile Include="chapter04_循环语句\03_for循环.py" />
-    <Compile Include="chapter04_循环语句\04_for练习.py" />
-    <Compile Include="chapter04_循环语句\05_嵌套循环.py" />
+    <Compile Include="chapter04_循环语句\whileloop1.py" />
+    <Compile Include="chapter04_循环语句\whileloop2.py" />
+    <Compile Include="chapter04_循环语句\forloop1.py" />
+    <Compile Include="chapter04_循环语句\forloop2.py" />
+    <Compile Include="chapter04_循环语句\nestedloop.py" />
     <Compile Include="chapter05_进制与编码\01_编码示例-你的名字.py" />
     <Compile Include="chapter05_进制与编码\02_进制转换.py" />
     <Compile Include="chapter06_数据类型\01_整形.py" />
