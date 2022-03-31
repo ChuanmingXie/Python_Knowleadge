@@ -1,12 +1,12 @@
 # -*- coding:utf-8 -*-
-
 """
-DateTime    :2021/12/19 21:48
-Author      :chuanmingxie
-File        :圣诞树测试.py
-Software    :PyCharm
+DateTime    :2022/3/31 16:19:39
+Author      :chuanming
+File        :christmastree
 Description :
+*Copyright @ chuanming 2022. All rights reserved
 """
+
 
 from turtle import *
 import random

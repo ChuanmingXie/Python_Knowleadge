@@ -9,7 +9,7 @@ Description :多分支语句
 """
 
 def branchbase():
-    # 1.基本条件语句
+    """1.基本条件语句"""
     age = 23
     if age >= 18:
         print('已成年,可以上网吧')
@@ -17,7 +17,7 @@ def branchbase():
         print('你好小,学习重要')
 
 def branchmore():
-    # 2.多条件判断
+    """2.多条件判断"""
     day = 3
     if day == 1:
         print('今天是周一')
@@ -45,7 +45,7 @@ def branchmore():
         print('数字不能超过7')
 
 def branchcondition():
-    # 3.条件嵌套
+    """3.条件嵌套"""
     username = 'banden'
     password = 'trump'
     if username == 'banden':
@@ -65,3 +65,4 @@ def branchcondition():
             print('密码错误')
     else:
         print('用户名错误')
+

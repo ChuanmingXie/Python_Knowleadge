@@ -1,12 +1,12 @@
 # -*- coding:utf-8 -*-
+"""
+DateTime    :2022/3/31 16:13:21
+Author      :chuanming
+File        :orderprint
+Description :顺序语句-输出
+*Copyright @ chuanming 2022. All rights reserved
+"""
 
-"""
-DateTime    :2021/8/1 18:12
-Author      :chuanmingxie
-File        :orderoutput.py
-Software    :visual studio
-Description :顺序执行输出
-"""
 import getpass
 
 def buddhistimg():
@@ -81,3 +81,14 @@ def welcomeuser():
     position = input('请输入您所在位置:')
     action = input('请说明您的行动:')
     print(name + '在' + position + action)
+
+def printverse():
+    """打印小诗"""
+    printverse1()
+    printverse2()
+    printverse3()
+
+def userinfo():
+    """打印用户"""
+    printuser()
+    welcomeuser()

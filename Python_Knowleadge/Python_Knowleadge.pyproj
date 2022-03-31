@@ -24,69 +24,75 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="chapter02_顺序语句\definedata.py" />
-    <Compile Include="chapter02_顺序语句\operation.py" />
-    <Compile Include="chapter02_顺序语句\orderoutput.py" />
-    <Compile Include="chapter02_顺序语句\orderprint.py" />
-    <Compile Include="chapter02_顺序语句\datatypeformat.py" />
-    <Compile Include="chapter03_条件语句\branch.py" />
-    <Compile Include="chapter03_条件语句\judge.py" />
-    <Compile Include="chapter03_条件语句\condition.py" />
-    <Compile Include="chapter04_循环语句\whileloop1.py" />
-    <Compile Include="chapter04_循环语句\whileloop2.py" />
-    <Compile Include="chapter04_循环语句\forloop1.py" />
-    <Compile Include="chapter04_循环语句\forloop2.py" />
-    <Compile Include="chapter04_循环语句\nestedloop.py" />
-    <Compile Include="chapter05_进制与编码\eccoding.py" />
-    <Compile Include="chapter05_进制与编码\binary.py" />
-    <Compile Include="chapter06_数据类型\01_整形.py" />
-    <Compile Include="chapter06_数据类型\02_字符串.py" />
-    <Compile Include="chapter06_数据类型\03_字符串练习.py" />
-    <Compile Include="chapter06_数据类型\04_基础小结.py" />
-    <Compile Include="chapter07_列表与元组\01_列表追加.py" />
-    <Compile Include="chapter07_列表与元组\02_列表排序.py" />
-    <Compile Include="chapter07_列表与元组\03_列表删除.py" />
-    <Compile Include="chapter07_列表与元组\04_列表练习.py" />
-    <Compile Include="chapter07_列表与元组\05_列表应用与获取unicode.py" />
-    <Compile Include="chapter07_列表与元组\06_示例名字管理系统.py" />
-    <Compile Include="chapter07_列表与元组\07_示例掷色子游戏.py" />
-    <Compile Include="chapter07_列表与元组\08_示例购买游戏装备.py" />
-    <Compile Include="chapter07_列表与元组\09_示例生成派克牌.py" />
-    <Compile Include="chapter08_字典与集合\01_示例三级菜单.py" />
-    <Compile Include="chapter08_字典与集合\02_示例世界杯小组赛.py" />
-    <Compile Include="chapter08_字典与集合\03_示例名片管理版本1.py" />
-    <Compile Include="chapter08_字典与集合\04_示例名片管理版本1-无颜色.py" />
-    <Compile Include="chapter08_字典与集合\05_示例名片管理版本2.py" />
-    <Compile Include="chapter08_字典与集合\06_示例名片管理版本2-无颜色.py" />
-    <Compile Include="chapter08_字典与集合\07_字典应用1.py" />
-    <Compile Include="chapter08_字典与集合\08_字典应用2.py" />
-    <Compile Include="chapter08_字典与集合\09_示例词频统计.py" />
-    <Compile Include="chapter10_函数\圣诞树测试.py" />
+    <Compile Include="part1_processcontrol\chapter02_selection\branch.py" />
+    <Compile Include="part1_processcontrol\chapter02_selection\judge.py" />
+    <Compile Include="part1_processcontrol\chapter02_selection\condition.py" />
+    <Compile Include="part1_processcontrol\chapter03_cycle\whileloop1.py" />
+    <Compile Include="part1_processcontrol\chapter03_cycle\whileloop2.py" />
+    <Compile Include="part1_processcontrol\chapter03_cycle\forloop1.py" />
+    <Compile Include="part1_processcontrol\chapter03_cycle\forloop2.py" />
+    <Compile Include="part1_processcontrol\chapter03_cycle\nestedloop.py" />
+    <Compile Include="part1_processcontrol\processcontrol.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter04_number\numberformat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter06_string\formattime.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter06_string\stringformat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter06_string\stringtype.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter05_binarycode\eccoding.py" />
+    <Compile Include="part2_datatypeuse\chapter05_binarycode\binary.py" />
     <Compile Include="main\Python_Knowleadge.py" />
+    <Compile Include="part2_datatypeuse\chapter04_number\numbertype.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part1_processcontrol\chapter01_sequence\orderinput.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part1_processcontrol\chapter01_sequence\orderprint.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\chapter09_basictrain\loopprocess.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\chapter09_basictrain\conditionproc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\chapter10_function\christmastree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\chapter12_file\getfilepath.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="chapter02_顺序语句\" />
-    <Folder Include="chapter03_条件语句\" />
-    <Folder Include="chapter04_循环语句\" />
-    <Folder Include="chapter05_进制与编码\" />
-    <Folder Include="chapter06_数据类型\" />
-    <Folder Include="chapter07_列表与元组\" />
-    <Folder Include="chapter08_字典与集合\" />
-    <Folder Include="chapter09_小结与示例\" />
-    <Folder Include="chapter10_函数\" />
-    <Folder Include="chapter11_异常处理\" />
-    <Folder Include="chapter12_文件操作\" />
-    <Folder Include="chapter13_文本导出\" />
-    <Folder Include="chapter14_oopbase\" />
-    <Folder Include="chapter15_oopapply\" />
-    <Folder Include="chapter16_闭包\" />
-    <Folder Include="chapter17_装饰器\" />
-    <Folder Include="chapter18_带迭器与生成器\" />
-    <Folder Include="chapter19_爬虫\" />
     <Folder Include="main\" />
+    <Folder Include="part3_oop\" />
+    <Folder Include="part3_oop\chapter13_class\" />
+    <Folder Include="part3_oop\chapter12_file\" />
+    <Folder Include="part3_oop\chapter11_exception\" />
+    <Folder Include="part3_oop\chapter10_function\" />
+    <Folder Include="part2_datatypeuse\" />
+    <Folder Include="part2_datatypeuse\chapter04_number\" />
+    <Folder Include="part2_datatypeuse\chapter08_set\" />
+    <Folder Include="part2_datatypeuse\chapter07_list\" />
+    <Folder Include="part2_datatypeuse\chapter05_binarycode\" />
+    <Folder Include="part2_datatypeuse\chapter06_string\" />
+    <Folder Include="part1_processcontrol\" />
+    <Folder Include="part1_processcontrol\chapter02_selection\" />
+    <Folder Include="part1_processcontrol\chapter03_cycle\" />
+    <Folder Include="part1_processcontrol\chapter01_sequence\" />
+    <Folder Include="part3_oop\chapter09_basictrain\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="chapter05_进制与编码\log.txt" />
+    <Content Include="part2_datatypeuse\chapter05_binarycode\log.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
