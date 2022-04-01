@@ -50,4 +50,5 @@ if __name__ == '__main__':
             studydatatype()
         callback=input("你还要继续测试吗:N/Y ?")        
     main()
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

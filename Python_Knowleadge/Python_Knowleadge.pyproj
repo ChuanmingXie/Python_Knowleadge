@@ -62,6 +62,15 @@
     <Compile Include="part2_datatypeuse\chapter07_list\sequence.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="part2_datatypeuse\chapter07_list\uselist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter07_list\usestring.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter07_list\usetuple.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="part2_datatypeuse\usedatatype.py">
       <SubType>Code</SubType>
     </Compile>
