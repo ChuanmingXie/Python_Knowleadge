@@ -71,6 +71,12 @@
     <Compile Include="part2_datatypeuse\chapter07_list\usetuple.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="part2_datatypeuse\chapter08_set\usedictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter08_set\useset.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="part2_datatypeuse\usedatatype.py">
       <SubType>Code</SubType>
     </Compile>
@@ -83,7 +89,13 @@
     <Compile Include="part3_oop\chapter10_function\christmastree.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="part3_oop\chapter10_function\definefun.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="part3_oop\chapter12_file\getfilepath.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\oopmodule.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

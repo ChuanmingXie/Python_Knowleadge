@@ -34,8 +34,3 @@ def listpath():
  
     print('../' + ret_list)
     print('此路径是否为文件夹：%s' % os.path.isdir('../' + ret_list))
-
-
-rootpath()
-#convertpath()
-#listpath()

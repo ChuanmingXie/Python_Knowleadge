@@ -8,9 +8,11 @@ base_dir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 添加路径，这个是临时的
 sys.path.append(base_dir+"\\part1_processcontrol")
 sys.path.append(base_dir+"\\part2_datatypeuse")
+sys.path.append(base_dir+"\\part3_oop")
 
 from processcontrol import studyprint
 from usedatatype import studydatatype
+from oopmodule import studyoop
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -42,12 +44,15 @@ if __name__ == '__main__':
         print("测试算法如下")
         print("-------------1.流程控制语句-------------")
         print("-------------2.数据类型定义-------------")
+        print("-------------3.面向对象使用-------------")
         print("****************************************")
         N=int(input("请选择演示类别："))
         if(N==1):
             studyprint()
         elif(N==2):
             studydatatype()
+        elif(N==3):
+            studyoop()
         callback=input("你还要继续测试吗:N/Y ?")        
     main()
 

@@ -16,7 +16,7 @@ sys.path.append(base_dir+"\\part2_datatypeuse\\chapter07_list")
 sys.path.append(base_dir+"\\part2_datatypeuse\\chapter08_set")
 
 import numberformat,numbertype,binary,encoding,formattime,stringformat,stringtype
-import sequence,usestring,usetuple,uselist
+import sequence,usestring,usetuple,uselist,useset,usedictionary
 
 def studydatatype():
     os.system("cls")
@@ -35,6 +35,9 @@ def studydatatype():
     print("-------------9.string数据类型-------------")
     print("-------------10.tuple数据类型-------------")
     print("-------------11.list 数据类型-------------")
+    print("******************************************")
+    print("-------------12.set集合的应用-------------")
+    print("-------------13. dictionary的-------------")
 
     N=int(input("请选择演示类别："))
     if(N==1):
@@ -72,3 +75,9 @@ def studydatatype():
     elif(N==11):
         uselist.listarray()
         uselist.listinnerfun()
+    elif(N==12):
+        useset.setbase()
+        useset.setoperation()
+        useset.setinnerfun()
+    elif(N==13):
+        usedictionary.usedictionary()
