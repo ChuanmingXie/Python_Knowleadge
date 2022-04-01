@@ -114,7 +114,7 @@ def taxsystem():
     print('个人所得税: ￥%.2f元' % tax)
     print('实际到手收入: ￥%.2f元' % (diff + 3500 - tax))
 
-def validationuuser():
+def validationuser():
     '''用户身份验证'''
     username = input('请输入用户名:')
     password = input('请输入口令:')

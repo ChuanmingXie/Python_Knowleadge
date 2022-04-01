@@ -2,10 +2,15 @@
 
 import time
 import sys,os
-BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))    #__file__获取执行文件相对路径，整行为取上一级的上一级目录
-sys.path.append(BASE_DIR+"\\part1_processcontrol")   #添加路径，这个是临时的
+
+# __file__获取执行文件相对路径，整行为取上一级的上一级目录
+base_dir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 添加路径，这个是临时的
+sys.path.append(base_dir+"\\part1_processcontrol")
+sys.path.append(base_dir+"\\part2_datatypeuse")
 
 from processcontrol import studyprint
+from usedatatype import studydatatype
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -32,9 +37,17 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('Visual Studio 2019 for Python')
     callback='Y';
-    while(callback.upper!="N"):
-        studyprint()
-        print("你还要继续测试吗:N/Y ?")
-        callback=input()
+    while(callback.upper()!="N"):
+        os.system("cls")
+        print("测试算法如下")
+        print("-------------1.流程控制语句-------------")
+        print("-------------2.数据类型定义-------------")
+        print("****************************************")
+        N=int(input("请选择演示类别："))
+        if(N==1):
+            studyprint()
+        elif(N==2):
+            studydatatype()
+        callback=input("你还要继续测试吗:N/Y ?")        
     main()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

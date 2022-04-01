@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3594a86a-94c4-49b3-b9c0-71628dc926ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main\Python_Knowleadge.py</StartupFile>
+    <StartupFile>main\knowleadge.py</StartupFile>
     <SearchPath>C:\ToolsCode\Python\Python39\Lib\site-packages</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -47,9 +47,9 @@
     <Compile Include="part2_datatypeuse\chapter06_string\stringtype.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="part2_datatypeuse\chapter05_binarycode\eccoding.py" />
+    <Compile Include="part2_datatypeuse\chapter05_binarycode\encoding.py" />
     <Compile Include="part2_datatypeuse\chapter05_binarycode\binary.py" />
-    <Compile Include="main\Python_Knowleadge.py" />
+    <Compile Include="main\knowleadge.py" />
     <Compile Include="part2_datatypeuse\chapter04_number\numbertype.py">
       <SubType>Code</SubType>
     </Compile>
@@ -57,6 +57,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="part1_processcontrol\chapter01_sequence\orderprint.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\chapter07_list\sequence.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part2_datatypeuse\usedatatype.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="part3_oop\chapter09_basictrain\loopprocess.py">

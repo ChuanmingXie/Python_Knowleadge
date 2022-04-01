@@ -8,18 +8,6 @@ Software    :visual studio
 Description :while循环
 """
 
-def guessnumberbase():
-    '''猜数字'''
-    numReady = 66
-    while True:
-        numGuass = int(input('请输入数字:'))
-        if numGuass == numReady:
-            print('恭喜你，输入正确')
-            break
-        elif numGuass < numReady:
-            print('你输入的数字小了')
-        else:
-            print('你输入的数字大了')
 
 def printhundred():
     '''打印 1-100'''
@@ -66,3 +54,9 @@ def oddoreven():
             print(num, '为偶数')
         num += 1
     print()
+
+def printnumber():
+    printhundred()
+    printten()
+    sumhundred()
+    oddoreven()

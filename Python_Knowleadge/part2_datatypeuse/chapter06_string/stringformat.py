@@ -42,7 +42,7 @@ def occupyformat():
     # *号置于开头结尾
     print('{0:*^10}'.format('诸葛孔明'))
 
-def fformat():
+def f_format():
     # 使用索引
     l1 = ['诸葛孔明', 27]
     l2 = ['hobby', '冥想']

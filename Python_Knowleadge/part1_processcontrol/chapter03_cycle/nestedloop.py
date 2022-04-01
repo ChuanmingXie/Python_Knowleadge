@@ -9,8 +9,22 @@ Description :嵌套循套的猜数游戏
 """
 import random
 
+
+def guessnumberbase():
+    '''猜数字'''
+    numReady = 66
+    while True:
+        numGuass = int(input('请输入数字:'))
+        if numGuass == numReady:
+            print('恭喜你，输入正确')
+            break
+        elif numGuass < numReady:
+            print('你输入的数字小了')
+        else:
+            print('你输入的数字大了')
+
 def guessnumber():
-    # while True:
+    """while True"""
     num = random.randint(1, 100)
     times = 1
     while True:
@@ -30,6 +44,7 @@ def guessnumber():
 def guessnumberpro():
     '''升级版猜数游戏'''
     total_times, times = 5, 1
+    num = random.randint(1, 100)
     while True:
         num2 = int(input(f'请输入数字【1-100】(共{total_times}次机会):'))
         if num2 == num:
@@ -56,7 +71,3 @@ def guessnumberpro():
                 print(f'已退出,正确数字是{num}')
                 break
     print('程序已退出！')
-
-if __name__=='__main__':
-    guessnumber()
-    guessnumberpro()

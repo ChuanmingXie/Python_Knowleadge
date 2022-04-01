@@ -26,6 +26,6 @@ def f_formattime():
 
 def timecompare():
     # 使用各方法的速度比较
-    print(timeit(occupyformattime, number=1000000))
-    print(timeit(spotformattime, number=1000000))
-    print(timeit(f_formattime, number=1000000))
+    print(f"occupyformat={timeit(occupyformattime, number=1000000)}")
+    print(f"spotformat={timeit(spotformattime, number=1000000)}")
+    print(f"f_format={timeit(f_formattime, number=1000000)}")

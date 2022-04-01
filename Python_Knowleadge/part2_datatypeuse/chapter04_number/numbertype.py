@@ -7,6 +7,10 @@ Description :number类型数据的定义和使用
 *Copyright @ chuanming 2022. All rights reserved
 """
 
+import decimal
+import math
+import operator
+
 def numberclac():
     '''number类型运算'''
     # 整数运算
@@ -63,7 +67,6 @@ def numberclac():
     v3 = v1 + v2
     print(v3)
     # 4.使用decimal解决精度问题
-    import decimal
     v1 = decimal.Decimal('0.1')
     v2 = decimal.Decimal('0.2')
     print(v1 + v2)       
@@ -92,16 +95,49 @@ def numberconvert():
     # 6. 字符串转布尔
     print('sasasa', bool('sasasa'))
     print('莎莎', bool('莎莎'))
-    print('', bool(''))
-    print(bool(1))
-    print(bool(10))
-    print(bool(0))
+    print("bool('')=%s" % bool(''))
+    print("bool(0)=%s" % bool(0))
+    print("bool('1')=%s" % bool(1))
+    print("bool('10')=%s" % bool(10))
 
     # 布尔值转整型
     n1 = int(True)      # True转换为整数 1
     n2 = int(False)     # False转换为整数 0
-    print('n1:'+n1,"n2:"+n2);
+    print("int(True) =%s, int(False)=%s" % (n1,n2));
 
     # 8 浮点型（小数）
-    print(int(8.7))
+    print("int(8.7)=%s" % int(8.7))
+
+def numbercommfun():
+    """number类型通用函数"""
+    print("str(0x20)=%s" % str(0x20))
+    print("type(4L)=%s" % type(4))
+    print("type(True)=%s" % type(True))
+    print("type(45+5.4j)=%s" % type(45+5.4j))
+    print("bool('True')=%s" % bool('True'))
+    print(f"int('34')={int('34')}")
+
+    #python 3.x中已废除
+    #print(f"cmp(12,32,43)={cmp(12.32,43)}")  
+
+    print(f"operator.lt(12,32,43)={operator.lt(12.32,43)}")
+    print(f"operator.eq(12,32,43)={operator.eq(12.32,43)}")
+    print(f"operator.le(12,32,43)={operator.le(12.32,43)}")
+
+    print(f"operator.lt(0,-2)={operator.lt(0,-2)}")
+    print(f"operator.lt(0x12,18)={operator.lt(0x12,18)}")
+
+    print(f"operator.ne(0x12,18)={operator.ne(0x12,18)}")
+    print(f"operator.ge(0x12,18)={operator.ge(0x12,18)}")
+    print(f"operator.gt(0x12,18)={operator.gt(0x12,18)}")
+
+def numberspecially():
+    """number特定函数"""
+    print("abs(-3)=%d" % abs(-3))
+    print("round(5.7)=%d" % round(5.7))
+    print(f"chr(0x32)={chr(0x32)}")    
+    #python 3.x中已废除
+    #print(f"coerce(24,-4.5)={coerce(24,-4.5)}")
+    print(f"hex(10)={hex(10)}")    
+    print(f"divmod(5,2)={divmod(5,2)}")
 

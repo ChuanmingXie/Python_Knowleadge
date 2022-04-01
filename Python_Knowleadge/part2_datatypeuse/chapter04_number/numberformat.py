@@ -8,6 +8,7 @@ Description :
 """
 
 def occupyformat():
+    """占位符格式化"""
     print(f'{2 ** 3 + 1}')
     # 格式化
     print('%+10x' % 11)  # 输出整数11 对应的16进制字符串，会出现异常 + 号

@@ -18,57 +18,59 @@ Description :while循环
 # while 条件:
 #     满足条件的时候执行的事情
 
-# 2. 设定循环次数
-num = 1
-while num < 4:
-    print('我爱你中国')
-    num = num + 1
+def loopnum():
+    """2. 设定循环次数"""
+    num = 1
+    while num < 4:
+        print('我爱你中国')
+        num = num + 1
 
-# 3. 中止While循环的两种方式
-print('开始运行超级无敌系统')
+def looplogin():
+    """3. 中止While循环的两种方式"""
+    print('开始运行超级无敌系统')
+    while True:
+        user = input('请输入用户名:')
+        pwd = input('请输入密码:')
+        if user == 'chuanmingxie' and pwd == '666666':
+            print('登录成功')
+            break
+        else:
+            print('用户名或密码错误')
 
-while True:
-    user = input('请输入用户名:')
-    pwd = input('请输入密码:')
-    if user == 'chuanmingxie' and pwd == '666666':
-        print('登录成功')
-        break
+    print('开始运行超级无敌系统')
+    flag = True
+    while flag:
+        user = input('请输入用户名:')
+        pwd = input('请输入密码:')
+        if user == 'chuanmingxie' and pwd == '666666':
+            print('登陆成功')
+            flag = False
+        else:
+            print('用户名或密码错误')
+
+def whileelse():
+    """4. 限制用户登录次数  while...else"""
+    num = 3
+    while num > 0:
+        num -= 1
+        name = input('请输入用户名:')
+        pwd = input('请输入密码:')
+        if name == 'siwei' and pwd == '123456':
+            print('输入正确')
+            break
+        print(f'用户名或密码错误,请重新输入,还剩{num}次机会')
     else:
-        print('用户名或密码错误')
+        print('错误超过三次,请一个小时后再试 !')
 
-print('开始运行超级无敌系统')
-flag = True
-while flag:
-    user = input('请输入用户名:')
-    pwd = input('请输入密码:')
-    if user == 'chuanmingxie' and pwd == '666666':
-        print('登陆成功')
-        flag = False
+    num = 1
+    while num <= 3:
+        name = input('请输入用户名:')
+        pwd = input('请输入密码:')
+        if name =='嘉兴' and pwd =='123456':
+            print('输入正确')
+            break
+        print(f'用户名或密码错误,请重新输入,还有{3-num}次机会')
     else:
-        print('用户名或密码错误')
-
-# 4. 限制用户登录次数  while...else
-num = 3
-while num > 0:
-    num -= 1
-    name = input('请输入用户名:')
-    pwd = input('请输入密码:')
-    if name == 'siwei' and pwd == '123456':
-        print('输入正确')
-        break
-    print(f'用户名或密码错误,请重新输入,还剩{num}次机会')
-else:
-    print('错误超过三次,请一个小时后再试 !')
-
-num = 1
-while num <= 3:
-    name = input('请输入用户名:')
-    pwd = input('请输入密码:')
-    if name =='嘉兴' and pwd =='123456':
-        print('输入正确')
-        break
-    print(f'用户名或密码错误,请重新输入,还有{3-num}次机会')
-else:
-    print('密码输入错误超过三次,请一小时后再试')
+        print('密码输入错误超过三次,请一小时后再试')
 
 
