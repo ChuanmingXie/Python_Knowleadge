@@ -92,7 +92,19 @@
     <Compile Include="part3_oop\chapter10_function\definefun.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="part3_oop\chapter11_exception\sys_except.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\chapter11_exception\user_except.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="part3_oop\chapter12_file\getfilepath.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\chapter13_class\class_inherit.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part3_oop\chapter13_class\class_object.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="part3_oop\oopmodule.py">

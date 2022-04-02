@@ -16,8 +16,8 @@ sys.path.append(base_dir+"\\part3_oop\\chapter12_file")
 sys.path.append(base_dir+"\\part3_oop\\chapter13_class")
 
 import conditionproc,loopprocess
-import definefun
-import getfilepath
+import definefun,sys_except,user_except
+import getfilepath,class_object,class_inherit
 
 def studyoop():
     """面向对象测试"""
@@ -44,8 +44,18 @@ def studyoop():
         definefun.variablelength()
         definefun.lambdamainfun()
     if(N==3):
-        definefun.fundefinemain()
+        sys_except.exceptionsingle()
+        sys_except.exceptionmore()
+        user_except.userdefinemain()
     if(N==4):
         getfilepath.rootpath()
     if(N==5):
-        definefun.fundefinemain()
+        class_object.useclass()
+        class_object.useconstructor()
+        class_object.usemoreconstructor()
+        class_object.usedestructor()
+        class_object.usemember()
+        class_object.useStaticMethod()
+        class_object.usePrivate()
+        class_inherit.useInherit()
+        class_inherit.useMoreInherit()
