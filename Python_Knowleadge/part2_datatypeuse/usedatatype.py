@@ -75,6 +75,10 @@ def studydatatype():
     elif(N==11):
         uselist.listarray()
         uselist.listinnerfun()
+        uselist.listappend()
+        uselist.listdelete()
+        uselist.listsorted()
+        uselist.unicodelist()
     elif(N==12):
         useset.setbase()
         useset.setoperation()
