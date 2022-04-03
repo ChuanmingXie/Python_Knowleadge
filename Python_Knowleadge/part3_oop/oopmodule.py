@@ -18,6 +18,7 @@ sys.path.append(base_dir+"\\part3_oop\\chapter13_class")
 import conditionproc,loopprocess
 import definefun,sys_except,user_except
 import getfilepath,class_object,class_inherit
+import socket_client,socket_server
 
 def studyoop():
     """面向对象测试"""
@@ -28,6 +29,10 @@ def studyoop():
     print("-------------3.异常捕获定义-------------")
     print("-------------4.文件使用操作-------------")
     print("-------------5.对象及类文件-------------")
+    print("-------------6.socket TCP服务端-----------")
+    print("-------------7.socket UDP服务端-----------")
+    print("-------------8.socket TCP客户端-----------")
+    print("-------------9.socket UDP客户端-----------")
 
     N=int(input("请选择演示类别："))
     if(N==1):
@@ -59,3 +64,11 @@ def studyoop():
         class_object.usePrivate()
         class_inherit.useInherit()
         class_inherit.useMoreInherit()
+    if(N==6):
+        socket_server.serverTCP()
+    if(N==7):
+        socket_server.serverUDP()
+    if(N==8):
+        socket_client.clientTCP()
+    if(N==9):
+        socket_client.clientUDP()

@@ -72,6 +72,7 @@ def callfunc(func,param):
     print("")
 
 def lambdamainfun():
+    """匿名函数"""
     callfunc(namedfunc,"Hello")
     callfunc(lambda x:x*2,9)
     callfunc(lambda y:y*y,-4)
