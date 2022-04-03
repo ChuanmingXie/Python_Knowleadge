@@ -53,6 +53,8 @@ if __name__ == '__main__':
             studydatatype()
         elif(N==3):
             studyoop()
+        elif(N=='0'):
+            exit(0)
         callback=input("你还要继续测试吗:N/Y ?")        
     main()
 

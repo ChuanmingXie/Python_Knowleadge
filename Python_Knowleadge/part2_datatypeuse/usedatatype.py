@@ -73,6 +73,8 @@ def studydatatype():
     elif(N==10):
         usetuple.tuplearry()
     elif(N==11):
+        uselist.cardsList()
+        uselist.nameSystem()
         uselist.listarray()
         uselist.listinnerfun()
         uselist.listappend()
