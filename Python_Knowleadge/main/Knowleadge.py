@@ -9,10 +9,12 @@ base_dir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(base_dir+"\\part1_processcontrol")
 sys.path.append(base_dir+"\\part2_datatypeuse")
 sys.path.append(base_dir+"\\part3_oop")
+sys.path.append(base_dir+"\\part4_webanddb")
 
 from processcontrol import studyprint
 from usedatatype import studydatatype
 from oopmodule import studyoop
+from DBAndORM import studydatabase
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -45,6 +47,7 @@ if __name__ == '__main__':
         print("-------------1.流程控制语句-------------")
         print("-------------2.数据类型定义-------------")
         print("-------------3.面向对象使用-------------")
+        print("-------------3.数据库的使用-------------")
         print("****************************************")
         N=int(input("请选择演示类别："))
         if(N==1):
@@ -53,6 +56,8 @@ if __name__ == '__main__':
             studydatatype()
         elif(N==3):
             studyoop()
+        elif(N==4):
+            studydatabase()
         elif(N=='0'):
             exit(0)
         callback=input("你还要继续测试吗:N/Y ?")        

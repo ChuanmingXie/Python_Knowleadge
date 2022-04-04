@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3594a86a-94c4-49b3-b9c0-71628dc926ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main\knowleadge.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>C:\ToolsCode\Python\Python39\Lib\site-packages</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -24,6 +25,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="main\knowleadge.py" />
     <Compile Include="part1_processcontrol\chapter02_selection\branch.py" />
     <Compile Include="part1_processcontrol\chapter02_selection\judge.py" />
     <Compile Include="part1_processcontrol\chapter02_selection\condition.py" />
@@ -49,7 +51,6 @@
     </Compile>
     <Compile Include="part2_datatypeuse\chapter05_binarycode\encoding.py" />
     <Compile Include="part2_datatypeuse\chapter05_binarycode\binary.py" />
-    <Compile Include="main\knowleadge.py" />
     <Compile Include="part2_datatypeuse\chapter04_number\numbertype.py">
       <SubType>Code</SubType>
     </Compile>
@@ -116,9 +117,16 @@
     <Compile Include="part3_oop\oopmodule.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="part4_webanddb\DBAndORM.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="part4_webanddb\chapter04_database\database_sqlite3.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="main\" />
+    <Folder Include="part4_webanddb\" />
     <Folder Include="part3_oop\" />
     <Folder Include="part3_oop\chapter13_class\" />
     <Folder Include="part3_oop\chapter12_file\" />
@@ -135,9 +143,12 @@
     <Folder Include="part1_processcontrol\chapter03_cycle\" />
     <Folder Include="part1_processcontrol\chapter01_sequence\" />
     <Folder Include="part3_oop\chapter09_basictrain\" />
+    <Folder Include="part4_webanddb\chapter03_webclient\" />
+    <Folder Include="part4_webanddb\chapter04_database\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="part2_datatypeuse\chapter05_binarycode\log.txt" />
+    <Content Include="part4_webanddb\chapter04_database\数据库及ORM.vsdx" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
