@@ -36,3 +36,7 @@ def SQLiteDB():
     cur.close()
     # 关闭数据库连接
     conn.close()
+
+def T_SQL():
+    """重点掌握的SQL语句"""
+    #INSERT INTO 

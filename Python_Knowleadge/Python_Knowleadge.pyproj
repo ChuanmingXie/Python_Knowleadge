@@ -117,6 +117,9 @@
     <Compile Include="part3_oop\oopmodule.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="part4_webanddb\chapter04_database\db_orm_peewee.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="part4_webanddb\DBAndORM.py">
       <SubType>Code</SubType>
     </Compile>
